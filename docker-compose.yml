@@ -1,6 +1,6 @@
 #lab rancher aws
 version: '3'
- services:
+services:
     rancher:
       image: rancher/rancher:stable
       container_name: rancher
