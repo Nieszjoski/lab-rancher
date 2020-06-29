@@ -1,0 +1,11 @@
+#lab rancher aws
+version: '3'
+ services:
+    rancher:
+      image: rancher/rancher:stable
+      container_name: rancher
+      hostname: rancher_cont
+      network_mode: "bridge"
+      ports:
+        - "8080:80"
+        - "8443:443"
